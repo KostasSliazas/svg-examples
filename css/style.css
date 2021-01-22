@@ -4,7 +4,6 @@ body {
 }
 
 main {
-    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -17,9 +16,8 @@ main {
 }
 
 .images-container li {
-    display: inline-block;
+    display: inline-flex;
     font-size: initial;
-    border: 2px solid #fff;
     margin: 0.25em;
     overflow: hidden;
 }
@@ -34,12 +32,8 @@ main {
 .images-container img {
     object-fit: cover;
     cursor: pointer;
-    display: block;
-    max-width: 250px;
     object-position: top;
     height: 10em;
-    width: 100%;
-    background: #fafafa;
 }
 
 .images-container img,
